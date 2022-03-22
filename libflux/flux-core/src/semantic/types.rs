@@ -1498,7 +1498,7 @@ impl Record {
     }
 }
 
-/// An iterator over a records fields
+/// An iterator over a record's fields.
 #[allow(missing_docs)]
 pub enum FieldIter<'a> {
     Record(&'a Record),
